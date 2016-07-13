@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors xuchengbo (xuchengbo@cd.tuan800.com)
+ * @date    2014-08-22 15:09:58
+ * @version $Id$
+ */
+.btn{width: 100px;height: 22px;font:12px/22px "宋体";color: #0099cd;/* border: 1px solid #e0e0e0; */display:block;text-align: left;/* background: url(images/third_pop.png) no-repeat 6px center; */}
+.btn i{display: inline-block;width: 16px;height: 16px;vertical-align: middle;background: url(images/seller_icon_online.gif) no-repeat;margin-right: 3px;}
+.btn.busy {  }
+.btn.offline { color: #c1c1c1; }
+.btn.busy i{}
+.btn.offline i{background: url(images/seller_icon_offline.png) no-repeat;}
+
+.btn.newstyle i { width: 77px; height: 20px; background: url(images/online.gif) no-repeat; }
+.btn.busy.newstyle i { width: 77px; height: 20px; background: url(images/online.gif) no-repeat; }
+.btn.offline.newstyle i { width: 77px; height: 20px; background: url(images/offline.gif) no-repeat; }
+/*.buyer{color: red;}*/
+/* .seller{color:blue;} */
+.message{background: url('images/btn.png') no-repeat left top;width: 97px;height: 36px;font: 14px/36px microsoft yahei;display: block;overflow: hidden;white-space: nowrap;text-align: center;}
+.message:hover{text-decoration: none;}
+.message em{letter-spacing: 5px;}
+.message span{font-size: 13px;}
+.message.login{color: #ff9900;background-position: center top;}
+.message.on{color: #fff;background-position: right top;}
+.message.on em,.message.login em{letter-spacing: 0}
+.message i{display: inline-block;*display: inline;*zoom:1;background:url(images/pop.png) no-repeat;width: 20px;height: 20px;vertical-align: middle;margin-right: 8px;}
+.message.login i{background-position: 0 -20px;}
+.message.on i{background-position: 0 -40px;}
